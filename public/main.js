@@ -15,9 +15,13 @@ async function getCurrentWeather(){
 
     const placeHolder = document.querySelector("#weather-info")
     placeHolder.innerHTML = `
-    <p>Right now it is...</p>
-    <p>${cityName}, ${regionName}, ${countryName}</p>
-    <p>${currentTempInCelsius} C <img src="${icon}" alt=${text}"/>${text}</p>`
+    <div class="weather-card">
+    <img src="${icon}" alt="${text}" class="weather-icon"/>
+    <h3>${cityName} <span>${currentTempInCelsius}°C</span></h3>
+    <p class="weather-text">${text}</p>
+    <p>Region: ${regionName}</p>
+    <p>Country: ${countryName}</p>
+`
 
     console.log('currentTempInCelsius: ', currentTempInCelsius);
     console.log('countryName: ', countryName);

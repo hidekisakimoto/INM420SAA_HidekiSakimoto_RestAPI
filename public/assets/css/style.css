@@ -15,16 +15,27 @@ body{
     background-color: #1B262C;
 }
 
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .navbar h1 {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 .navbar .menu a {
   text-decoration: none;
   color: #fff;
-  font-weight: 500;
+  font-weight: 300;
+  padding: 0 32px;
+  font-size: 1.25rem;
 }
 
 .navbar button {
@@ -33,13 +44,13 @@ body{
     align-items: flex-start;
     gap: 0.625rem;
 
-    border-radius: 20px;
+    border-radius: 1rem;
     background: linear-gradient(108deg, #3A5E72 4.95%, #5C93B1 132.43%);
     box-shadow: 7px 7px 10px 0px rgba(79, 136, 167, 0.30) inset;
 
     color: #FFF;
     font-family: Poppins;
-    font-size: 1.5625rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -49,7 +60,7 @@ h2 {
     color: #FFF;
     text-align: center;
     font-family: Poppins;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 500;
     line-height: 4.0625rem;
@@ -61,12 +72,56 @@ h2 span {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Poppins;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: 4.0625rem;
 }
 
-#weather-info{
-    color: #fff;
+#weather-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.weather-card {
+    background: linear-gradient(145deg, #1F2E37, #162125);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6), 0 0 40px rgba(121, 202, 255, 0.2);
+    border-radius: 1.5rem;
+    padding: 2rem;
+    width: 280px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 1rem;
+}
+
+.weather-card h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.weather-card h3 span {
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+    color: #C9EFFF;
+}
+
+.weather-text {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: #AEE0FF;
 }
