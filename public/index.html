@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header class="navbar">
+    <!-- <header class="navbar">
         <div class="container">
             <h1>Hideki's Weather</h1>
             <nav class="menu">
@@ -19,11 +19,25 @@
             </nav>
             <button>Sign Up</button>
         </div>
-    </header>
+    </header> -->
 
     <h2>Seeing the weather of the whole world with <span>Hideki's Weather</span>!</h2>
 
+    <div class="dropdown-wrapper">
+    <label for="city-select">Choose a City: </label>
+    <select id="city-select">
+        <option value="Toronto">Toronto</option>
+        <option value="São Paulo">São Paulo</option>
+        <option value="Okinawa">Okinawa</option>
+        <option value="ForceError">Force Error</option>
+    </select>
+    </div>
+
     <div id="weather-info">Loading...</div>
+
+    <div id="toast" class="toast hidden">
+        <p id="toast-message"></p>
+    </div>
 
     <script src="main.js"></script>
 </body>

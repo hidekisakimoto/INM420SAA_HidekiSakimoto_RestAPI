@@ -5,57 +5,6 @@ body{
     padding: 0 80px;
 }
 
-.navbar {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 1.5625rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    background-color: #1B262C;
-}
-
-.navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar h1 {
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.navbar .menu a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 300;
-  padding: 0 32px;
-  font-size: 1.25rem;
-}
-
-.navbar button {
-    display: flex;
-    padding: 1.25rem 2.1875rem;
-    align-items: flex-start;
-    gap: 0.625rem;
-
-    border-radius: 1rem;
-    background: linear-gradient(108deg, #3A5E72 4.95%, #5C93B1 132.43%);
-    box-shadow: 7px 7px 10px 0px rgba(79, 136, 167, 0.30) inset;
-
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
 h2 {
     color: #FFF;
     text-align: center;
@@ -125,3 +74,94 @@ h2 span {
     margin-bottom: 0.5rem;
     color: #AEE0FF;
 }
+
+.dropdown-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem auto;
+    justify-content: center;
+}
+
+.dropdown-wrapper label {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#city-select {
+    background-color: #1B2C34;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.75rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-family: Poppins;
+    padding: 0.6rem 1.2rem;
+    appearance: none;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23ffffff" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1rem;
+    padding-right: 2.5rem;
+}
+
+#city-select:hover {
+    border-color: #78CFFF;
+    background-color: #243A44;
+}
+
+/* .navbar {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background-color: #1B262C;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navbar .menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  padding: 0 32px;
+  font-size: 1.25rem;
+}
+
+.navbar button {
+    display: flex;
+    padding: 1.25rem 2.1875rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+
+    border-radius: 1rem;
+    background: linear-gradient(108deg, #3A5E72 4.95%, #5C93B1 132.43%);
+    box-shadow: 7px 7px 10px 0px rgba(79, 136, 167, 0.30) inset;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+} */
