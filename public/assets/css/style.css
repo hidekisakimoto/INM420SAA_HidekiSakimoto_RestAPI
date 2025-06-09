@@ -107,20 +107,20 @@ h2 span {
 }
 
 .weather-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 700;
     margin-bottom: 0.25rem;
 }
 
 .weather-card h3 span {
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     margin-left: 0.5rem;
     color: #C9EFFF;
 }
 
 .weather-text {
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
     color: #AEE0FF;
