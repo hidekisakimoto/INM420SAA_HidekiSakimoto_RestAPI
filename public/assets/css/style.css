@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #1B262C;
+    padding: 0 80px;
+}
+
+.navbar {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    background-color: #1B262C;
+}
+
+.navbar h1 {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar .menu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.navbar button {
+    display: flex;
+    padding: 1.25rem 2.1875rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+
+    border-radius: 20px;
+    background: linear-gradient(108deg, #3A5E72 4.95%, #5C93B1 132.43%);
+    box-shadow: 7px 7px 10px 0px rgba(79, 136, 167, 0.30) inset;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 4.0625rem;
+}
+
+h2 span {
+    background: linear-gradient(91deg, #CAECFF 39.76%, #78CFFF 86.12%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.0625rem;
+}
+
+#weather-info{
+    color: #fff;
+}
