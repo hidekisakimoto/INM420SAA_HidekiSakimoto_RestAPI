@@ -1,43 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INM420SAA_HidekiSakimoto_RestAPI</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INM420SAA_HidekiSakimoto_RestAPI</title>
 
-    <!-- External CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    <!-- <header class="navbar">
-        <div class="container">
-            <h1>Hideki's Weather</h1>
-            <nav class="menu">
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Contact us</a>
-            </nav>
-            <button>Sign Up</button>
-        </div>
-    </header> -->
 
-    <!-- Title -->
-    <h2>Seeing the weather of the whole world with <span>Hideki's Weather</span>!</h2>
+  <!-- Title -->
+  <h2>Daily horoscopes and lucky insights with <span>Hideki's Zodiac</span>!</h2>
 
-    <!-- Dropdown Menu -->
-    <div class="dropdown-wrapper">
-    <label for="city-select">Choose a City: </label>
-    <select id="city-select">
-        <option value="Toronto">Toronto</option>
-        <option value="São Paulo">São Paulo</option>
-        <option value="Okinawa">Okinawa</option>
-        <option value="ForceError">Force Error</option>
-    </select>
-    </div>
+  <!-- Zodiac Dropdown -->
+  <div class="dropdown-wrapper">
+    <label for="zodiac-select">Choose Zodiac Sign: </label>
+            <select id="zodiac-select">
+            <option value="aries">Aries</option>
+            <option value="taurus">Taurus</option>
+            <option value="gemini">Gemini</option>
+            <option value="cancer">Cancer</option>
+            <option value="leo">Leo</option>
+            <option value="virgo">Virgo</option>
+            <option value="libra">Libra</option>
+            <option value="scorpio">Scorpio</option>
+            <option value="sagittarius">Sagittarius</option>
+            <option value="capricorn">Capricorn</option>
+            <option value="aquarius" selected>Aquarius</option>
+            <option value="pisces">Pisces</option>
+            <option value="forceerror">(Force Error)</option>
+        </select>
+  </div>
 
-    <!-- Information that JS will pull -->
-    <div id="weather-info">Loading...</div>
+  <!-- Output -->
+  <div id="horoscope-info">Loading...</div>
 
-    <script src="main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
